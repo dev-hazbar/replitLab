@@ -1,0 +1,18 @@
+<root>
+  <cadena>Hola mundo</cadena>
+  <numero>42</numero>
+  <booleano>true</booleano>
+  <nulo>null</nulo>
+  <arreglo>
+    <elemento>manzana</elemento>
+    <elemento>banana</elemento>
+    <elemento>naranja</elemento>
+  </arreglo>
+  <objeto>
+    <propiedad1>valor1</propiedad1>
+    <propiedad2>valor2</propiedad2>
+  </objeto>
+  <fecha>2024-05-24T12:00:00Z</fecha>
+  <expresionRegular>/^\\d{3}-\\d{3}-\\d{4}$/</expresionRegular>
+  <funcion>function() { return 'Hola'; }</funcion>
+</root>

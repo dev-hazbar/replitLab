@@ -1,0 +1,2 @@
+cadena,numero,booleano,nulo,arreglo_0,arreglo_1,arreglo_2,objeto_propiedad1,objeto_propiedad2,fecha,expresionRegular,funcion
+"Hola mundo",42,true,,manzana,banana,naranja,valor1,valor2,"2024-05-24T12:00:00Z","/^\\d{3}-\\d{3}-\\d{4}$/","function() { return 'Hola'; }"
