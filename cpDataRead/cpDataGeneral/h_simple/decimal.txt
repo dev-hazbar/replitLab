@@ -1,0 +1,1 @@
+3.14 2.71 -1.5 0.0 4.56 INF NAN inf nan -inf

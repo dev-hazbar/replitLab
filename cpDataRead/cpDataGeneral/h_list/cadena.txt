@@ -1,0 +1,3 @@
+"Hola" 'Mundo' Prueba de "Cadenas"
+"Python" 'es' "genial" 'para' "programar"
+'Este' es un 'ejemplo' de 'cadenas'
