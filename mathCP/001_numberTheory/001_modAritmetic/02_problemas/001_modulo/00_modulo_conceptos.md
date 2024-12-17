@@ -2,6 +2,8 @@
 
 En términos generales, para un número a y un divisor n, el resultado de a mod n es el residuo de la división de a por n. Este residuo es un número que satisface:
 
+### Teorema del residuo y el cociente
+
 ```
 a = qn + r
 ```
