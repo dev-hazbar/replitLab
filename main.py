@@ -17,6 +17,7 @@ ruta_archivo = "./mathCP/001_numberTheory/001_modAritmetic/02_problemas/001_modu
 ruta_archivo = "./mathCP/001_numberTheory/001_modAritmetic/02_problemas/002_find_last_digit_of_power/find_last_dist_power.py"
 ruta_archivo = "./mathCP/001_numberTheory/001_modAritmetic/02_problemas/003_mod_congruence/mod_congruence.py"
 ruta_archivo = "./mathCP/001_numberTheory/001_modAritmetic/02_problemas/004_suma_mod/suma_module.py"
+ruta_archivo = "./cpDataRead/cpDataGeneral/readMultiData.py"
 
 #ruta_archivo = "./importOutFiles/testSource/elorion.py"
 #ruta_archivo = "./mathCP/modAritmetic/get_mod/get_mod.py"
