@@ -18,9 +18,9 @@
       "name": "Python Debugger: file specific",
       "type": "debugpy",
       "request": "launch",
-      "program": "inputReader.py",
+      "program": "multi_mod.py",
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}/cpDataRead/cpDataGeneral/"
+      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/005_multiplicacion_modular/"
     }
   ]
 }
