@@ -18,9 +18,9 @@
       "name": "Python Debugger: file specific",
       "type": "debugpy",
       "request": "launch",
-      "program": "multi_mod.py",
+      "program": "02_mod_exp_optimizado.py",
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/005_multiplicacion_modular/"
+      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/006_mod_exp/"
     }
   ]
 }
