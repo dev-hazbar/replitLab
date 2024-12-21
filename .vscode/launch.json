@@ -18,9 +18,9 @@
       "name": "Python Debugger: file specific",
       "type": "debugpy",
       "request": "launch",
-      "program": "02_mod_exp_optimizado.py",
+      "program": "mod_inverse.py",
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/006_mod_exp/"
+      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/007_mod_inverse/"
     }
   ]
 }

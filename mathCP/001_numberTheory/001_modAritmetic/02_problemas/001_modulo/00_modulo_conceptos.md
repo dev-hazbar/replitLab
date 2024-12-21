@@ -14,6 +14,15 @@ donde q es el cociente, r es el residuo, y 0 ≤ r < n.
 r = a - b * FUNCION_PISO(a/b)
 ```
 
+```python
+1. Signo del residuo:
+El residuo tiene el mismo signo que el divisor "n"
+
+2. Rango de valores de r:
+- Si n > 0: r toma valores en el rango 0 ≤ r < n.
+- Si n < 0: r toma valores en el rango n < r ≤ 0.
+```
+
 ## Manejo de Signos en el Módulo:
 
 ```
