@@ -18,9 +18,9 @@
       "name": "Python Debugger: file specific",
       "type": "debugpy",
       "request": "launch",
-      "program": "mod_inverse.py",
+      "program": "eq_mod.py",
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/007_mod_inverse/"
+      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/008_eq_mod/"
     }
   ]
 }
