@@ -1,0 +1,68 @@
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+Resolver sistemas de congruencias lineales utilizando el Teorema Chino del Resto:
+
+Descripción: Dado un sistema de congruencias lineales, resuélvelo usando el Teorema Chino del Resto.
+Entrada: Una lista de pares de enteros (a_i, n_i) donde cada par representa una congruencia x ≡ a_i mod n_i.
+Salida: Un entero x que satisface todas las congruencias.
+Ejemplo: Entrada: [(2, 3), (3, 5), (2, 7)], Salida: 23.
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: [(2, 3), (3, 5), (2, 7)] -> expected: 23
+
+
+
+
+
+# Caso de prueba 1: Congruencias básicas con módulos primos pequeños
+Entrada: [(2, 3), (3, 5), (2, 7)] -> Valor esperado: 23
+Entrada: [(1, 3), (2, 5), (3, 7)] -> Valor esperado: 52
+Entrada: [(1, 2), (2, 3), (1, 5)] -> Valor esperado: 11
+
+# Caso de prueba 2: Módulos iguales y congruencias distintas
+Entrada: [(1, 4), (2, 4), (3, 4)] -> Valor esperado: No tiene solución
+Entrada: [(0, 4), (1, 4), (2, 4)] -> Valor esperado: 2
+Entrada: [(2, 4), (2, 4), (2, 4)] -> Valor esperado: 2
+
+# Caso de prueba 3: Módulos primos consecutivos
+Entrada: [(1, 2), (3, 5), (4, 7)] -> Valor esperado: 9
+Entrada: [(0, 2), (1, 3), (2, 5)] -> Valor esperado: 8
+Entrada: [(1, 3), (2, 5), (3, 7)] -> Valor esperado: 41
+
+# Caso de prueba 4: Congruencias con módulos compuestos
+Entrada: [(1, 4), (2, 6), (3, 9)] -> Valor esperado: 25
+Entrada: [(2, 6), (3, 8), (1, 12)] -> Valor esperado: 43
+Entrada: [(1, 4), (3, 6), (5, 8)] -> Valor esperado: 37
+
+# Caso de prueba 5: Prueba con módulos grandes
+Entrada: [(1, 17), (2, 23), (3, 29)] -> Valor esperado: 97
+Entrada: [(4, 19), (5, 23), (6, 31)] -> Valor esperado: 372
+Entrada: [(7, 11), (8, 13), (9, 17)] -> Valor esperado: 422
+
+# Caso de prueba 6: Módulos no coprimos
+Entrada: [(1, 6), (5, 8)] -> Valor esperado: No tiene solución
+Entrada: [(2, 6), (1, 4)] -> Valor esperado: No tiene solución
+Entrada: [(3, 9), (4, 12)] -> Valor esperado: No tiene solución
+
+# Caso de prueba 7: Solo una congruencia
+Entrada: [(2, 7)] -> Valor esperado: 2
+Entrada: [(5, 11)] -> Valor esperado: 5
+Entrada: [(3, 13)] -> Valor esperado: 3
+
+# Caso de prueba 8: Congruencias con soluciones negativas
+Entrada: [(-1, 5), (-3, 7)] -> Valor esperado: 12
+Entrada: [(-2, 6), (4, 9)] -> Valor esperado: 16
+Entrada: [(-5, 8), (3, 10)] -> Valor esperado: 15
+
+# Caso de prueba 9: Módulos primos con valores negativos
+Entrada: [(-1, 2), (2, 5), (3, 7)] -> Valor esperado: 8
+Entrada: [(1, 3), (-2, 5), (3, 7)] -> Valor esperado: 11
+Entrada: [(0, 2), (-1, 3), (2, 5)] -> Valor esperado: 7
+
+# Caso de prueba 10: Módulos primos grandes y congruencias pequeñas
+Entrada: [(1, 101), (2, 103), (3, 107)] -> Valor esperado: 331
+Entrada: [(5, 103), (7, 107), (11, 109)] -> Valor esperado: 1862
+Entrada: [(2, 107), (3, 109), (4, 113)] -> Valor esperado: 860

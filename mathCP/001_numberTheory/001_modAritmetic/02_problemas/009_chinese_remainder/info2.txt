@@ -1,0 +1,64 @@
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+
+Resolver un sistema de congruencias usando el Teorema Chino del Resto:
+
+Descripción: Dado un sistema de congruencias x ≡ a_i mod n_i para i = 1, 2, ..., k, encuentra la solución x usando el Teorema Chino del Resto.
+Entrada: Una lista de tuplas (a_i, n_i) representando las congruencias.
+Salida: Un entero x que satisface todas las congruencias.
+Ejemplo: Entrada: [(2, 3), (3, 5), (2, 7)], Salida: 23.
+
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+input: [(2, 3), (3, 5), (2, 7)], Expected: 23.
+
+
+
+
+
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+Encontrar la solución mínima y única usando el Teorema Chino del Resto:
+
+Descripción: Dado un sistema de congruencias, encuentra la solución única x en el rango [0, N−1] donde N = n_1 ⋅ n_2 ⋅ ... ⋅ n_k.
+Entrada: Una lista de tuplas (a_i, n_i) representando las congruencias.
+Salida: El entero x mínimo y único que satisface todas las congruencias.
+Ejemplo: Entrada: [(2, 3), (3, 5), (2, 7)], Salida: 23 (porque 23 mod 3 = 2, 23 mod 5 = 3, y 23 mod 7 = 2).
+
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: [(2, 3), (3, 5), (2, 7)] -> expected: 23
+
+
+
+
+
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+Verificar si un sistema de congruencias es consistente:
+
+Descripción: Dado un sistema de congruencias, verifica si tiene solución utilizando el Teorema Chino del Resto.
+Entrada: Una lista de tuplas (a_i, n_i) representando las congruencias.
+Salida: Un mensaje indicando si el sistema tiene una solución o no.
+Ejemplo: Entrada: [(2, 3), (3, 5), (2, 7)], Salida: "El sistema tiene una solución.".
+
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: [(2, 3), (3, 5), (2, 7)] -> expected:  "El sistema tiene una solución."
+
+
+
+
+
+
+
+
