@@ -18,9 +18,9 @@
       "name": "Python Debugger: file specific",
       "type": "debugpy",
       "request": "launch",
-      "program": "eq_mod.py",
+      "program": "chinese_remainder.py",
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/008_eq_mod/"
+      "cwd": "${workspaceFolder}/mathCP/001_numberTheory/001_modAritmetic/02_problemas/009_chinese_remainder/"
     }
   ]
 }

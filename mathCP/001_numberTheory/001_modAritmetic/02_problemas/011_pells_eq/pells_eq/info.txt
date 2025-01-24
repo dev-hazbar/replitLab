@@ -1,0 +1,60 @@
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+Resolver la ecuación de Pell:
+
+Descripción: Dado un entero D, encuentra la solución fundamental (x, y) a la ecuación de Pell x^2 - Dy^2 = 1.
+Entrada: Un entero D donde 1 ≤ D ≤ 10^6 y D no es un cuadrado perfecto.
+Salida: Dos enteros x y y que son la solución fundamental.
+Ejemplo: Entrada: 13, Salida: 649 180 (porque 649^2 - 13⋅180^2 = 1).
+
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: 13 -> expected: 649 180
+
+
+
+
+# Caso de prueba 1: D es un número primo pequeño
+Inputs: 2 -> expected: 3 2
+Inputs: 3 -> expected: 2 1
+Inputs: 5 -> expected: 9 4
+Inputs: 7 -> expected: 8 3
+Inputs: 11 -> expected: 10 3
+
+# Caso de prueba 2: D es un número compuesto pequeño
+Inputs: 6 -> expected: 5 2
+Inputs: 10 -> expected: 19 6
+Inputs: 14 -> expected: 15 4
+Inputs: 15 -> expected: 4 1
+Inputs: 21 -> expected: 55 12
+
+# Caso de prueba 3: D es un número primo mediano
+Inputs: 13 -> expected: 649 180
+Inputs: 29 -> expected: 9801 1820
+Inputs: 41 -> expected: 2049 320
+Inputs: 53 -> expected: 66249 9100
+Inputs: 61 -> expected: 29718 3805
+
+# Caso de prueba 4: D es un número compuesto mediano
+Inputs: 15 -> expected: 4 1
+Inputs: 21 -> expected: 55 12
+Inputs: 35 -> expected: 6 1
+Inputs: 33 -> expected: 23 4
+Inputs: 39 -> expected: 25 4
+
+# Caso de prueba 5: D es un número primo grande
+Inputs: 97 -> expected: 62809633 6377352
+Inputs: 199 -> expected: 140140801 9939180
+Inputs: 293 -> expected: 110110011 6428710
+Inputs: 401 -> expected: 158070671986249 78815304996
+Inputs: 509 -> expected: 1766319049 78254260
+
+# Caso de prueba 6: D es un número compuesto grande
+Inputs: 85 -> expected: 285769 30976
+Inputs: 143 -> expected: 40735 3404
+Inputs: 221 -> expected: 2946901 198840
+Inputs: 247 -> expected: 159951 10140
+Inputs: 299 -> expected: 1182961 68468

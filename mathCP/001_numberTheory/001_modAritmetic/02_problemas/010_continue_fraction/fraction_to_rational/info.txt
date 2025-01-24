@@ -1,0 +1,16 @@
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+
+Convertir una fracción continua en un número racional:
+
+Descripción: Dada una lista de enteros que representa una fracción continua, convierte esta fracción continua en una fracción racional.
+Entrada: Una lista de enteros que representa la fracción continua.
+Salida: Dos enteros p y q donde p/q es la fracción racional.
+Ejemplo: Entrada: [1, 2, 2], Salida: 7 5.
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: [1, 2, 2] -> expected: 7 5
+

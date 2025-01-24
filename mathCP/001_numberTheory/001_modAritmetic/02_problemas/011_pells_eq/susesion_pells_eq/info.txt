@@ -1,0 +1,52 @@
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+Generar soluciones sucesivas a la ecuación de Pell:
+
+Descripción: Dado un entero D y un número de soluciones n, encuentra las primeras n soluciones a la ecuación de Pell x^2 - Dy^2 = 1.
+Entrada: Un entero D y un entero n donde 1 ≤ D ≤ 10^6 y D no es un cuadrado perfecto, y 1 ≤ n ≤ 10^3.
+Salida: Una lista de pares de enteros (x_i, y_i) que son las primeras n soluciones.
+Ejemplo: Entrada: 13 2, Salida: [(649, 180), (842401, 233640)].
+
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: 13 2 -> expected: [(649, 180), (842401, 233640)]
+
+
+
+# Caso de prueba 1: D pequeño, n pequeño
+Inputs: 2 1 -> expected: [(3, 2)]
+Inputs: 3 1 -> expected: [(2, 1)]
+Inputs: 5 1 -> expected: [(9, 4)]
+Inputs: 6 1 -> expected: [(5, 2)]
+Inputs: 7 1 -> expected: [(8, 3)]
+
+# Caso de prueba 2: D mediano, n mediano
+Inputs: 13 2 -> expected: [(649, 180), (842401, 233640)]
+Inputs: 15 2 -> expected: [(4, 1), (112, 29)]
+Inputs: 19 2 -> expected: [(170, 39), (57799, 13260)]
+Inputs: 21 2 -> expected: [(55, 12), (13465, 2944)]
+Inputs: 23 2 -> expected: [(24, 5), (1151, 240)]
+
+# Caso de prueba 3: D grande, n pequeño
+Inputs: 991 1 -> expected: [(379516400906811930638014896080, 12055735790331359447442538767)]
+Inputs: 997 1 -> expected: [(322661899393844788126224075226, 10235561110764316640932714627)]
+Inputs: 1009 1 -> expected: [(6422725455165389353531485011, 201602015623276562127994096)]
+Inputs: 1013 1 -> expected: [(63018038201, 1983243991)]
+Inputs: 1021 1 -> expected: [(198705483951, 6222548760)]
+
+# Caso de prueba 4: D pequeño, n grande
+Inputs: 2 5 -> expected: [(3, 2), (17, 12), (99, 70), (577, 408), (3363, 2378)]
+Inputs: 7 3 -> expected: [(8, 3), (127, 48), (2048, 771)]
+Inputs: 11 4 -> expected: [(10, 3), (362, 109), (32850, 9897), (2971210, 895019)]
+Inputs: 5 5 -> expected: [(9, 4), (161, 72), (2889, 1292), (51841, 23184), (930249, 416020)]
+Inputs: 6 5 -> expected: [(5, 2), (49, 20), (485, 198), (4801, 1958), (47525, 19396)]
+
+# Caso de prueba 5: D grande, n grande
+Inputs: 991 3 -> expected: [(379516400906811930638014896080, 12055735790331359447442538767), (442452239635939865546196951761, 14047160457786828740794922315), (515387566079067800454379007442, 16038585125242298034147296763)]
+Inputs: 997 3 -> expected: [(322661899393844788126224075226, 10235561110764316640932714627), (376707367935238679976688404889, 11945251273733109369218946215), (430752836476632471827152734552, 13654941436701902097505177803)]
+Inputs: 1009 2 -> expected: [(6422725455165389353531485011, 201602015623276562127994096), (10219321994660665234679329237, 320539848759293174066804181)]
+Inputs: 991 5 -> expected: [(379516400906811930638014896080, 12055735790331359447442538767), (442452239635939865546196951761, 14047160457786828740794922315), (515387566079067800454379007442, 16038585125242298034147296763), (588322892522195735362561063123, 18030009819097767327401711811), (661258218965323670270744118804, 20021434486553236620754186259)]
+Inputs: 997 5 -> expected: [(322661899393844788126224075226, 10235561110764316640932714627), (376707367935238679976688404889, 11945251273733109369218946215), (430752836476632471827152734552, 13654941436701902097505177803), (484798305018026263677617064215, 15364631699670794825791409391), (538843773559419755528081393878, 17074321962639687554077640979)]

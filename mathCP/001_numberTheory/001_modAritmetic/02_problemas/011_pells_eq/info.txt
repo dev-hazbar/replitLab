@@ -1,0 +1,34 @@
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+Resolver la ecuación de Pell:
+
+Descripción: Dado un entero D, encuentra la solución fundamental (x, y) a la ecuación de Pell x^2 - Dy^2 = 1.
+Entrada: Un entero D donde 1 ≤ D ≤ 10^6 y D no es un cuadrado perfecto.
+Salida: Dos enteros x y y que son la solución fundamental.
+Ejemplo: Entrada: 13, Salida: 649 180 (porque 649^2 - 13⋅180^2 = 1).
+
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: 13 -> expected: 649 180
+
+
+
+
+Genera una lista de casos de prueba para un test unitario en formato de texto. Enfócate en casos críticos para el problema, detallando tipos de entrada y valores esperados.
+
+Generar soluciones sucesivas a la ecuación de Pell:
+
+Descripción: Dado un entero D y un número de soluciones n, encuentra las primeras n soluciones a la ecuación de Pell x^2 - Dy^2 = 1.
+Entrada: Un entero D y un entero n donde 1 ≤ D ≤ 10^6 y D no es un cuadrado perfecto, y 1 ≤ n ≤ 10^3.
+Salida: Una lista de pares de enteros (x_i, y_i) que son las primeras n soluciones.
+Ejemplo: Entrada: 13 2, Salida: [(649, 180), (842401, 233640)].
+
+
+FORMATO DE RESPUESTA:
+Agragale un comentario en el encabezado cada caso de prueba, por cada caso de prueba debe haber 3 tests
+entregame la salida en un textbox, 
+(la entrada y valor esperado esten en una linea por caso)
+Inputs: 13 2 -> expected: [(649, 180), (842401, 233640)]
